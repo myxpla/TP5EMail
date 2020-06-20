@@ -1,0 +1,16 @@
+      // //email  粘到Config
+        // 'email'                =>[
+        //     'Host'=>'smtp.qq.com',//smtp服务器
+        //     'From'=>'***********',//发送者的邮件地址
+        //     'FromName'=>'*************',//发送邮件的用户昵称
+        //     'Username'=>'***************',//登录到邮箱的用户名
+        //     'Password'=>'*************'//第三方登录的授权码，在邮箱里面设置
+        // ]
+
+
+
+        //使用方法
+        // $data['title']='测试邮件';
+        // $data['message']='这是一封测试 邮件';
+        // $data['emailAddress']='***********@163.com';
+        // $result = $this->email->SendEmail($data);
